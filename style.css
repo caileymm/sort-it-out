@@ -1,0 +1,231 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(223, 212, 196);
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+}
+
+#gameTitle {
+  margin-top: 30px;
+  text-align: center;
+  color: rgb(39, 71, 144);
+}
+
+#wasteInfo {
+  height: 300px;
+  width: 400px;
+  margin-top: 40px;
+  margin-left: 30px;
+  color: rgb(138, 154, 91);
+  position: absolute;
+}
+
+#gameModule {
+  height: 150px;
+  width: 400px;
+  margin-top: 350px;
+  margin-left: 30px;
+  border-radius: 30px;
+  outline: 3px dashed rgb(39, 71, 144);
+  color: rgb(39, 71, 144);
+  position: absolute;
+}
+
+#moduleText {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: rgb(39, 71, 144);
+  position: absolute;
+}
+
+.button {
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+  margin-top: 50px;
+  background-color: rgb(39, 71, 144);
+  ;
+  color: rgb(223, 212, 196);
+  border: none;
+  border-radius: 50px;
+  position: absolute;
+}
+
+.button:hover {
+  background-color: rgb(179, 193, 143);
+}
+
+#startButton {
+  margin-left: 25px;
+}
+
+#resetButton {
+  margin-left: 210px;
+}
+
+#sortingDirections {
+  height: 500px;
+  width: 400px;
+  margin-top: -10px;
+  margin-left: 1000px;
+  color: rgb(138, 154, 91);
+  position: absolute;
+}
+
+#sortingInfo {
+  height: 300px;
+  width: 300px;
+  border: none;
+  background-color: rgb(223, 212, 196);
+  position: absolute;
+}
+
+#game {
+  height: 500px;
+  width: 500px;
+  margin-top: 275px;
+  margin-left: 720px;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  background-color: white;
+  position: absolute;
+}
+
+#conveyorBelt {
+  background-color: grey;
+  height: 55px;
+  width: 490px;
+  margin-top: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10% / 90%;
+  position: absolute;
+}
+
+#conveyor {
+  background-color: darkgrey;
+  height: 50px;
+  width: 465px;
+  margin-top: 5px;
+  border-radius: 10% / 100%;
+  position: absolute;
+}
+
+.conveyorLine {
+  background-color: black;
+  height: 1px;
+  width: 24px;
+  position: absolute;
+}
+
+#line1 {
+  margin-top: 10px;
+  margin-left: 457px;
+}
+
+#line2 {
+  margin-top: 20px;
+  margin-left: 464px;
+}
+
+#line3 {
+  margin-top: 30px;
+  margin-left: 466px;
+}
+
+#line4 {
+  margin-top: 40px;
+  margin-left: 464px;
+}
+
+#line5 {
+  margin-top: 50px;
+  margin-left: 457px;
+}
+
+.pulley {
+  background-color: gray;
+  height: 40px;
+  width: 40px;
+  margin-top: 2%;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#pulley1 {
+  margin-left: 5%;
+}
+
+#pulley2 {
+  margin-left: 20%;
+}
+
+#pulley3 {
+  margin-left: 35%;
+}
+
+#pulley4 {
+  margin-left: 50%;
+}
+
+#pulley5 {
+  margin-left: 65%;
+}
+
+#pulley6 {
+  margin-left: 80%;
+}
+
+.bin {
+  height: 125px;
+  width: 80px;
+  margin-top: 65%;
+  position: absolute;
+}
+
+#compost {
+  margin-left: 50px;
+}
+
+#recycling {
+  margin-left: 200px;
+}
+
+#landfill {
+  margin-left: 350px;
+}
+
+.waste {
+  height: 75px;
+  width: 75px;
+  border: none;
+  position: absolute;
+}
+
+#gameOver {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 150px;
+  position: absolute;
+}
+
+.noSelect {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.noSelect:focus {
+  outline: none;
+}

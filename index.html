@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Sort It Out! by Cailey Murad </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 id="gameTitle"> Sort It Out! </h1>
+
+  <div id="wasteInfo">
+    Information: <br>
+    Did you know that the average American produces 4.9 pounds of waste a day with only
+    1.16 pounds being recycled and 0.42 pounds being composted?
+    When waste is not properly sorted, there is a higher chance of compostable and recyclable material ending up in the landfill. Non-organic materials like plastic are many times only used once but can take hundreds of years to decompose in landfills. Additionally, due to anaerobic conditions in landfills, organic materials tend to emit methane, which has a global warming potential of 25 times more than carbon dioxide. Learn to properly sort waste!
+  </div>
+
+  <div id="gameModule">
+    <div id="moduleText">
+      Game Module: <br>
+      <button class="button" id="startButton" onclick="startGame()">Start Game</button>
+      <button class="button" id="resetButton" onclick="resetGame()">Reset Game</button>
+      <span> Score:
+        <strong><span id="score">0</span></strong>
+      </span>
+      <br>
+      <span> Highest Score:
+        <strong><span id="highestScore">0</span></strong>
+      </span>
+    </div>
+  </div>
+
+  <div id="sortingDirections">
+    Directions: <br>
+    Sort the waste on the conveyor belt by dragging it correctly to either the compost, recycling, or landfill! As the game continues, the conveyor belt will increase in speed and more waste will appear. If you correctly sort the waste your score will increase, but if you don't, your score will decrease. The game ends if your score reaches below zero. Try to get higher than your highest score!  <br>
+    <br>
+    Click on the image below to view it! <br>
+    <button id="sortingInfo" onclick="window.open('https://www.ci.claremont.ca.us/home/showpublishedimage/8914/63772848298687000')">
+      <img src="images/sortingInfo.jpg"> </img>
+    </button>
+  </div>
+
+  <div id="game" class="noSelect">
+    <div id="conveyorBelt">
+      <div id="conveyor"></div>
+
+      <div class="conveyorLine" id="line1"></div>
+      <div class="conveyorLine" id="line2"></div>
+      <div class="conveyorLine" id="line3"></div>
+      <div class="conveyorLine" id="line4"></div>
+      <div class="conveyorLine" id="line5"></div>
+
+      <div class="pulley" id="pulley1"> </div>
+      <div class="pulley" id="pulley2"> </div>
+      <div class="pulley" id="pulley3"> </div>
+      <div class="pulley" id="pulley4""> </div>
+      <div class=" pulley" id="pulley5""> </div>
+      <div class=" pulley" id="pulley6""> </div>
+    </div>
+
+    <img class=bin id="compost" src="images/compost.jpg"> </img>
+    <img class=bin id="recycling" src="images/recycling.jpg"> </img>
+    <img class=bin id="landfill" src="images/landfill.jpg"> </img>
+
+    <div id=gameOver>
+      GAME OVER
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
