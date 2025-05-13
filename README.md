@@ -1,2 +1,2 @@
-I initially made Sort It Out! on Replit, but I moved it to GitHub Pages! \
+Sort It Out! is an educational web application that aims to promote proper waste sorting practices.
 Access Sort It Out! here: https://caileymm.github.io/sort-it-out/
